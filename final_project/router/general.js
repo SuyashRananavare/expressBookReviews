@@ -73,3 +73,4 @@ public_users.get('/review/:isbn', function (req, res) {
     return res.status(404).json({ message: "Book not found" });
   }
 });
+module.exports.general = public_users;
